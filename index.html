@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mes recettes favorites</title>
+</head>
+<body>
+    <header>
+        <article class="nav">             
+            <li class="nav-title">
+                <h3>Liens</h3>
+                <article class="links">
+                    <li><a href="https://www.marmiton.org/" target="_blank"><img src="./img/links/marmiton.png"></a></li>                
+                    <li><a href="https://www.750g.com/" target="_blank"><img src="./img/links/750g.png"></a></li>                
+                    <li><a href="https://www.iletaitunefoislapatisserie.com/" target="_blank"><img src="./img/links/il_etait_une_fois.png">Il était une fois la patisserie</a></li>                
+                    <li><a href="https://cuisine.journaldesfemmes.fr/" target="_blank"><img src="./img/links/lejournaldesfemmes.png" alt=""></a></li>                
+                    <li><a href="https://www.cuisineaz.com/" target="_blank"><img src="./img/links/CuisineAZ.png"></a></li>                
+                    <li><a href="https://www.papillesetpupilles.fr/" target="_blank"><img src="./img/links/papilles.png">Papilles et pupilles</a></li>                
+                    <li><a href="https://www.hervecuisine.com/" target="_blank"><img src="./img/links/hervé.png">Hervé Cuisine</a></li>                
+                    <li><a href="https://www.amandinecooking.com/" target="_blank"><img src="./img/links/ob_9570c0_amandine-cooking-logo2.png">Amandine Cooking</a></li>                           
+                </article>  
+            <li>                
+            <li class="nav-title">
+                <h3>Contact</h3>
+                <article class="contact">
+                    <a href=""><img src="./img/links/portfolio.png">Portfolio<img src="./img/links/portfolio.png"></a>
+                    <a href=""><img src="./img/links/instagram.png">Instagram<img src="./img/links/instagram.png"></a>
+                </article>                
+            </li>                      
+        </article>        
+        <article class="title">
+            <h1>Mes recettes favorites</h1>
+        </article>
+    </header>
+    <!---->
+    <main>
+        <!---->
+        <!-- Coté gauche -->
+        <section class="left-side" id="recipes-container"> 
+                  <!-- recettes ajoutées par le js -->
+        </section>
+        <!---->
+        <!-- côté droit -->
+        <section class="right-side">
+            <!-- texte de présentation -->
+            <article class="myself">
+                <p>Bonjour et bienvenue ! <br><br></p>
+                <p >
+                    Je m'appelle Kévin et je suis développeur web. <br><br> J'ai créé ce blog afin de ne pas perdre la main dans ma recherche d'un poste de développeur et pour parfaire mes connaissances. <br><br> Et aussi car j'aime manger.
+                </p>
+            </article>
+            <!-- champ de recherche -->
+            <article class="search-container">
+                <input type="text" id="search-input" placeholder="Rechercher une recette...">
+            </article>
+            <!-- filtre par catégorie -->
+            <article class="filter">
+                <h3>Filtrer par catégorie...</h3>
+                <article class="filter-container">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="entree">Entrées</button>          
+                    <button class="filter-btn" data-filter="plat">Plats</button>
+                    <button class="filter-btn" data-filter="dessert">Desserts</button>                    
+                </article>                
+            </article>            
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1152 @@
+[
+  {
+    "titre": "Fondant au chocolat",
+    "date": "2 avril 2024",
+    "description": "Classique sauf qu'on remplace le beurre par de la compote de pommes.",
+    "image": "./img/fondant-choco.jpg",
+    "modal_image": "./img/modal/fondant-au-chocolat2.jpg",
+    "temps_preparation": "20min",
+    "temps_cuisson": "30min",
+    "calories": "245",
+    "quantite": "100g",
+    "categorie": "dessert",
+    "ingredients": [
+      {
+        "nom": "200g de chocolat noir",
+        "image": "./img/ingredients/chocolat.png"
+      },
+      {
+        "nom": "4 oeufs",
+        "image": "./img/ingredients/egg.png"
+      },
+      {
+        "nom": "200g de compote de pommes",
+        "image": "./img/ingredients/compote.png"
+      },
+      {
+        "nom": "50g de farine (ou maïzena)",
+        "image": "./img/ingredients/farine.png"
+      },
+      {
+        "nom": "80g de sucre roux (ou cassonade)",
+        "image": "./img/ingredients/sucre_roux.png"
+      },
+      {
+        "nom": "1 c.c. d'extrait de vanille",
+        "image": "./img/ingredients/vanille.png"
+      },
+      {
+        "nom": "1 c.s. de levure chimique",
+        "image": "./img/ingredients/levure.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Fouet",
+        "image": "./img/ingredients/fouet.png"
+      },
+      {
+        "nom": "Moule à génoise",
+        "image": "./img/ingredients/moule_genoise.png"
+      },
+      {
+        "nom": "Saladier en verre",
+        "image": "./img/ingredients/saladier.png"
+      }
+    ],
+    "etapes": [
+      [
+        "Préchauffez le four à 180°C.",
+        "Faites fondre le chocolat au bain-marie ou au four à micro-ondes."
+      ],
+      [
+        "Dans un saladier, fouettez les oeufs, le sucre de canne et la vanille liquide jusqu'à ce qu'ils doublent de volume.",
+        "Ajoutez la compote de pommes et mélangez.",
+        "Ajoutez la farine complète, la levure et mélangez.",
+        "Ajoutez le chocolat fondu et mélangez soigneusement."
+      ],
+      [
+        "Huilez et farinez un moule à génoise ou un moule carré de 20 cm de diamètre.",
+        "Versez la pâte dans le moule et enfournez pendant 30 minutes.",
+        "Laissez refroidir le fondant avant de le démouler.",
+        "Dégustez."
+      ]
+    ]
+  },
+  {
+    "titre": "Risotto chorizo au Cookeo",
+    "date": "21 juillet 2024",
+    "description": "Mon risotto préféré, mais au cookéo pour gagner du temps !",
+    "image": "./img/risotto-au-chorizo.jpeg",
+    "modal_image": "./img/modal/Risotto-au-chorizo-au-Cookeo.jpg",
+    "temps_preparation": "15min",
+    "temps_cuisson": "15min",
+    "calories": "155",
+    "quantite": "100g",
+    "categorie": "plat",
+    "ingredients": [
+      {
+        "nom": "400g de riz arborio",
+        "image": "./img/ingredients/risotto.png"
+      },
+      {
+        "nom": "1/2 chorizo doux",
+        "image": "./img/ingredients/chorizo.png"
+      },
+      {
+        "nom": "1 gros oignon",
+        "image": "./img/ingredients/oignon.png"
+      },
+      {
+        "nom": "2 poivrons rouges",
+        "image": "./img/ingredients/poivron.png"
+      },
+      {
+        "nom": "100ml de crème fraîche liquide",
+        "image": "./img/ingredients/creme_fraiche.png"
+      },
+      {
+        "nom": "25g de beurre",
+        "image": "./img/ingredients/beurre.png"
+      },
+      {
+        "nom": "600ml de bouillon de légumes",
+        "image": "./img/ingredients/bouillon_legumes.png"
+      },
+      {
+        "nom": "100ml de vin blanc",
+        "image": "./img/ingredients/vin_blanc.png"
+      },
+      {
+        "nom": "Parmesan",
+        "image": "./img/ingredients/parmesan.png"
+      },
+      {
+        "nom": "Sel/poivre",
+        "image": "./img/ingredients/poivre_sel.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Cookeo",
+        "image": "./img/ingredients/cookeo.png"
+      },
+      {
+        "nom": "Cuillère en bois",
+        "image": "./img/ingredients/cuillere_bois.png"
+      },
+      {
+        "nom": "Planche en bois",
+        "image": "./img/ingredients/planche.png"
+      },
+      {
+        "nom": "Couteau de cuisine",
+        "image": "./img/ingredients/couteau.png"
+      }
+    ],
+    "etapes": [
+      [
+        "Emincez l'oignon.",
+        "Coupez le poivron et le chorizo en dés."
+      ],
+      [
+        "Alumez le Cookéo en mode manuel / cuisson classique / dorer.",
+        "Mettez le beurre, l’oignon et les poivrons dans la cuve du Cookeo.",
+        "Remuer pendant 5 minutes sans attendre la fin du préchauffage.",
+        "Ajouter le riz ainsi que le chorizo. Remuer quelques instants.",
+        "Déglacez avec le vin blanc, mélangez et attendez l'évaporation de l'alcool.",
+        "Assaisonner, verser le bouillon et mélanger."
+      ],
+      [
+        "Désactiver la fonction « dorer » et passer en mode « cuisson sous pression » pour 10 minutes.",
+        "Versez la pâte dans le moule et enfournez pendant 30 minutes.",
+        "Ajouter ensuite la crème fraîche et le parmesan, mélanger et refermer l’appareil pendant 1 minute.",
+        "Servez en saupoudrant de parmsean."
+      ]
+    ]
+  },
+  {
+    "titre": "Flan patissier",
+    "date": "23 juillet 2024",
+    "description": "Un de mes desserts favoris, si onctueux et peu calorique !",
+    "image": "./img/Flan-patissier.jpg",
+    "modal_image": "./img/modal/flan.jpg",
+    "temps_preparation": "1h30min",
+    "temps_cuisson": "40min",
+    "calories": "225",
+    "quantite": "100g",
+    "categorie": "dessert",
+    "ingredients": [
+      {
+        "nom": "170g de farine T55",
+        "image": "./img/ingredients/farine.png"
+      },
+      {
+        "nom": "60g de sucre glace",
+        "image": "./img/ingredients/sucre.png"
+      },
+      {
+        "nom": "1 oeuf entier et 4 petits jaunes",
+        "image": "./img/ingredients/egg.png"
+      },
+      {
+        "nom": "20g de poudre d'amande",
+        "image": "./img/ingredients/poudre_amande.png"
+      },
+      {
+        "nom": "1 pincée de sel",
+        "image": "./img/ingredients/sel.png"
+      },
+      {
+        "nom": "165g de beurre Charentes-Poitou AOP",
+        "image": "./img/ingredients/beurre.png"
+      },
+      {
+        "nom": "525g de lait",
+        "image": "./img/ingredients/lait.png"
+      },
+      {
+        "nom": "110g de cassonade",
+        "image": "./img/ingredients/sucre_roux.png"
+      },
+      {
+        "nom": "45g de fécule de maïs (ou Maïzena)",
+        "image": "./img/ingredients/farine.png"
+      },
+      {
+        "nom": "150g de crème liquide entière",
+        "image": "./img/ingredients/creme_fraiche.png"
+      },      
+      {
+        "nom": "1 gousse de vanille ou 1cc de vanille liquide",
+        "image": "./img/ingredients/vanille.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Fouet",
+        "image": "./img/ingredients/fouet.png"
+      },
+      {
+        "nom": "Saladier en verre",
+        "image": "./img/ingredients/saladier.png"
+      },
+      {
+        "nom": "Casserole",
+        "image": "./img/ingredients/casserole.png"
+      },
+      {
+        "nom": "Moule à génoise",
+        "image": "./img/ingredients/moule_genoise.png"
+      }
+    ],
+    "etapes": [
+      [
+        "Dans un saladier, mélangez 90g de beurre avec le sucre glace puis ajoutez la poudre d'amande, la farine et le sel.",
+        "Travaillez du bout des doigts pour obtenir une texture sablée.",
+        "Ajoutez l'oeuf et frasez de façon à avoir une pâte bien homogène."
+      ],
+      [
+        "Laissez reposer 20 minutes au réfrigérateur.",
+        "Sortez la pâte et placez-la sur un plan de travail fariné.",
+        "Abaissez la pâte (épaisseur de 3 mm)."
+      ],
+      [
+        "Beurrez puis foncez un cercle à pâtisserie en veillant à avoir le minimum de plis sur les rebords.",
+        "Parez l'excédent de pâte.",
+        "Placez au congélateur quelques minutes."
+      ],
+      [
+        "Dans une casserole, faites chauffer le lait et la crème avec la gousse de vanille fendue et grattée.",
+        "À part, fouettez les jaunes d'oeufs avec le sucre et la fécule de maïs, puis versez dessus le mélange lait/crème bouillant.",
+        "Fouettez énergiquement et remettez sur le feu jusqu'à ébullition sans cesser de mélanger, pour que la crème cuise.",
+        "Hors du feu, ajoutez le reste de beurre, retirez la gousse de vanille et mélangez bien."
+      ],
+      [
+        "Versez l'appareil sur la pâte, lissez le dessus et placez au réfrigérateur jusqu'à ce que le flan refroidisse totalement.",
+        "Préchauffez le four à 180°C.",
+        "Lorsque le flan est bien froid, enfournez pendant 40 minutes.",
+        "Attendez que le flan refroidisse complètement avant de le démouler et de le déguster."
+      ]
+    ]
+  },
+  {
+    "titre": "Poulet au curry",
+    "date": "23 juillet 2024",
+    "description": "Mettez du curry dans n'importe quoi, je le mange !",
+    "image": "./img/curry_poulet.jpg",
+    "modal_image": "./img/modal/poulet_curry.jpeg",
+    "temps_preparation": "10min",
+    "temps_cuisson": "35min",
+    "calories": "115",
+    "quantite": "100g",
+    "categorie": "plat",
+    "ingredients": [
+      {
+        "nom": "1 oignon",
+        "image": "./img/ingredients/oignon.png"
+      },
+      {
+        "nom": "4 gousses d'ail",
+        "image": "./img/ingredients/ail.png"
+      },
+      {
+        "nom": "1 poignée de feuilles de coriandre",
+        "image": "./img/ingredients/coriandre.png"
+      },
+      {
+        "nom": "1 tranche de gingembre frais (de 2cm)",
+        "image": "./img/ingredients/gingembre.png"
+      },
+      {
+        "nom": "500g d'escalopes de poulet",
+        "image": "./img/ingredients/escalope.png"
+      },
+      {
+        "nom": "4 pincées de curry en poudre",
+        "image": "./img/ingredients/curry.png"
+      },
+      {
+        "nom": "1 c.s. de pâte de curry jaune",
+        "image": "./img/ingredients/pate-curry.png"
+      },
+      {
+        "nom": "1 c.s. d'huile d'olive",
+        "image": "./img/ingredients/huile_olive.png"
+      },
+      {
+        "nom": "200ml de lait de coco",
+        "image": "./img/ingredients/coco.png"
+      },
+      {
+        "nom": "1 c.s. de yaourt nature",
+        "image": "./img/ingredients/yaourt.png"
+      },
+      {
+        "nom": "Sel et poivre",
+        "image": "./img/ingredients/poivre_sel.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Couteau de cuisine",
+        "image": "./img/ingredients/couteau.png"
+      },
+      {
+        "nom": "Planche en bois",
+        "image": "./img/ingredients/planche.png"
+      },
+      {
+        "nom": "Cuillère en bois",
+        "image": "./img/ingredients/cuillere_bois.png"
+      },
+      {
+        "nom": "Sauteuse",
+        "image": "./img/ingredients/sauteuse.png"
+      }
+    ],
+    "etapes": [
+      [
+        "Emincez l'oignon et l'ail finement.",
+        "Laver et hacher la coriandre.",
+        "Découper la viande en petits morceaux.",
+        "Salez, poivrez et saupoudrez de curry en poudre."
+      ],
+      [
+        "Dans une sauteuse, faire chauffer l’huile et ajouter le poulet.",
+        "Laisser cuire jusqu’à obtention d’une belle coloration dorée, sans toutefois mener la cuisson à son terme.",
+        "Oter du feu, puis réserver."
+      ],
+      [
+        "Dans cette même sauteuse, faire cuire les oignons pendant 5 min, jusqu’à ce qu’ils soient translucides.",
+        "Ajouter l’ail, le gingembre et la pâte de curry, puis laisser colorer quelques minutes.",
+        "Quand une odeur agréable se dégage, verser le lait de coco et le yaourt. Mélangez bien.",
+        "Laisser mijoter pendant 10 min."
+      ],
+      [
+        "Quand la sauce s’est épaissie, incorporer les morceaux de poulet.",
+        "Laisser sur le feu jusqu’à ce que la viande soit parfaitement cuite.",
+        "Parsemer de coriandre en fin de cuisson, puis saler et poivrer légèrement.",
+        "Servir bien chaud en compagnie d’un riz parfumé !"
+      ]
+    ]
+  },
+  {
+    "titre": "Tagliatelles au saumon fumé",
+    "date": "23 juillet 2024",
+    "description": "Du saumon fumé, de la crème fraiche et des pâtes, trop bon !",
+    "image": "./img/tagliatelle-saumon.jpg",
+    "modal_image": "./img/modal/tagliatelle-saumon.jpg",
+    "temps_preparation": "10min",
+    "temps_cuisson": "15min",
+    "calories": "380",
+    "quantite": "100g",
+    "categorie": "plat",
+    "ingredients": [
+      {
+        "nom": "1 c.s. de moutarde",
+        "image": "./img/ingredients/moutarde.png"
+      },
+      {
+        "nom": "1 c.s. d'huile d'olive",
+        "image": "./img/ingredients/huile_olive.png"
+      },
+      {
+        "nom": "400g de tagliatelles",
+        "image": "./img/ingredients/tagliatelle.png"
+      },
+      {
+        "nom": "100g de saumon fumé",
+        "image": "./img/ingredients/saumon.png"
+      },
+      {
+        "nom": "1 gousse d'ail",
+        "image": "./img/ingredients/ail.png"
+      },
+      {
+        "nom": "250ml de crème fraîche épaisse",
+        "image": "./img/ingredients/creme_fraiche.png"
+      },
+      {
+        "nom": "0.25 tasse de ciboulette",
+        "image": "./img/ingredients/ciboulette.png"
+      },
+      {
+        "nom": "1 citron pressé",
+        "image": "./img/ingredients/citron.png"
+      },
+      {
+        "nom": "2 c.s. de parmesan",
+        "image": "./img/ingredients/parmesan.png"
+      },
+      {
+        "nom": "Sel et poivre",
+        "image": "./img/ingredients/poivre_sel.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Couteau de cuisine",
+        "image": "./img/ingredients/couteau.png"
+      },
+      {
+        "nom": "Planche en bois",
+        "image": "./img/ingredients/planche.png"
+      },
+      {
+        "nom": "Cuillère en bois",
+        "image": "./img/ingredients/cuillere_bois.png"
+      },
+      {
+        "nom": "Sauteuse",
+        "image": "./img/ingredients/sauteuse.png"
+      }
+    ],
+    "etapes": [
+      [
+        "Faire cuire les tagliatelles.",
+        "Pendant ce temps, découpez le saumon fumé en petits morceaux.",
+        "Emincez la ciboulette et l'ail."
+      ],
+      [
+        "Dans une sauteuse, faire revenir l'ail dans l'huile d'olive pendant 30 secondes à feu doux.",
+        "Verser la crème, la ciboulette, la moutarde, le sel et le poivre.",
+        "Amener à ébulltion, baisser le feu et laisser mijoter jusqu'à épaississement.",
+        "Ajouter le saumon fumé (découpé en petits morçeaux), le jus de citron et mélanger. Faire chauffer à feu doux."
+      ],
+      [
+        "Ajouter les tagliatelles cuites et mélanger.",
+        "Saupoudrer de parmesan et de ciboulette puis servir."
+      ]
+    ]
+  },
+  {
+    "titre": "Lasagnes bolognaise",
+    "date": "23 juillet 2024",
+    "description": "Simple à faire et tellement délicieux !",
+    "image": "./img/lasagnes.jpg",
+    "modal_image": "./img/modal/Lasagne.jpg",
+    "temps_preparation": "20min",
+    "temps_cuisson": "60min",
+    "calories": "180",
+    "quantite": "100g",
+    "categorie": "plat",
+    "ingredients": [
+      {
+        "nom": "8 plaques de lasagnes (fraîche ou sèche)",
+        "image": "./img/ingredients/pate-a-lasagnes.png"
+      },
+      {
+        "nom": "800g de pulpe de tomate en conserve (ou 500 g de tomates fraîches)",
+        "image": "./img/ingredients/tomate.png"
+      },
+      {
+        "nom": "300g de viande de boeuf hachée",
+        "image": "./img/ingredients/viande_hachée.png"
+      },
+      {
+        "nom": "1 oignon",
+        "image": "./img/ingredients/oignon.png"
+      },
+      {
+        "nom": "1 gousse d'ail",
+        "image": "./img/ingredients/ail.png"
+      },
+      {
+        "nom": "1 c.s. d'huile d'olive",
+        "image": "./img/ingredients/huile_olive.png"
+      },
+      {
+        "nom": "1 c.s. d'herbes de Provence",
+        "image": "./img/ingredients/herbes_provence.png"
+      },
+      {
+        "nom": "100g d'emmental rapé",
+        "image": "./img/ingredients/emmental.png"
+      },
+      {
+        "nom": "2 morceaux de sucre",
+        "image": "./img/ingredients/sucre.png"
+      },
+      {
+        "nom": "Sel et poivre",
+        "image": "./img/ingredients/poivre_sel.png"
+      },
+      {
+        "nom": "70g de beurre",
+        "image": "./img/ingredients/beurre.png"
+      },
+      {
+        "nom": "70g de farine",
+        "image": "./img/ingredients/farine.png"
+      },
+      {
+        "nom": "50cl de lait",
+        "image": "./img/ingredients/lait.png"
+      },
+      {
+        "nom": "1 pincée de noix de muscade",
+        "image": "./img/ingredients/muscade.png"
+      },
+      {
+        "nom": "",
+        "image": ""
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Couteau de cuisine",
+        "image": "./img/ingredients/couteau.png"
+      },
+      {
+        "nom": "Planche en bois",
+        "image": "./img/ingredients/planche.png"
+      },
+      {
+        "nom": "Cuillère en bois",
+        "image": "./img/ingredients/cuillere_bois.png"
+      },
+      {
+        "nom": "Sauteuse",
+        "image": "./img/ingredients/sauteuse.png"
+      }
+    ],
+    "etapes": [
+      [
+        "Pour la bolognaise :",
+        "Emincez l'oignon et l'ail.",
+        "Faites les revenir dans une sauteuse avec l'huile d'olive.",
+        "Quand les oignons sont dorés, ajoutez la pulpe de tomate ainsi que le sucre.",
+        "Saler et poivrer, puis ajouter les herbes de Provence.",
+        "Laissez mijoter 20min avant de mixer, ou non, selon vos goûts.",
+        "Pendant que la sauce mijote, faites revenir la viande dans une poele avec un peu d'huile d'olive pendant 5min.",
+        "Saler et poivrer puis, dégraisser la viande et la mélanger à la sauce."
+      ],
+      [
+        "Pour la béchamel :",
+        "Dans une casserole, faire fondre le de beurre, et ajouter la farine hors du feu. Mélanger pour que le beurre soit absorbé.",
+        "Ajouter le lait très progressivement en mélangeant pour empêcher la formation de grumeaux.",
+        "Replacer sur feu doux et laisser épaissir pendant quelques minutes.",
+        "Saler, poivrer et ajouter une bonne pincée de noix de muscade."
+      ],
+      [
+        "Beurrer un plat à gratin, et y déposer une couche de béchamel, puis une couche de lasagnes, et une de sauce tomate à la viande parsemée d'emmental râpé.",
+        "Répéter l'opération jusqu'à épuisement des ingrédients en terminant par de la béchamel, et saupoudrer avec du parmesan râpé."
+      ],
+      [
+        "Enfourner à four préchauffé à 165°c (thermostat 5/6) pendant 45 minutes environ, pour que les lasagnes soient bien gratinées.",
+        "Servir."
+      ]
+    ]
+  },
+  {
+    "titre": "Tiramisu",
+    "date": "23 juillet 2024",
+    "description": "Mon dessert favori, ça fond dans la bouche.",
+    "image": "./img/tiramisu.png",
+    "modal_image": "./img/modal/tiramisu.jpg",
+    "temps_preparation": "30min",
+    "temps_cuisson": "-",
+    "calories": "240",
+    "quantite": "100g",
+    "categorie": "dessert",
+    "ingredients": [
+      {
+        "nom": "3 jaunes d'oeufs",
+        "image": "./img/ingredients/egg.png"
+      },
+      {
+        "nom": "500g de mascarpone",
+        "image": "./img/ingredients/fromage.png"
+      },
+      {
+        "nom": "130g de cassonade",
+        "image": "./img/ingredients/sucre_roux.png"
+      },
+      {
+        "nom": "25cl de crème liquide entière",
+        "image": "./img/ingredients/creme_fraiche.png"
+      },
+      {
+        "nom": "250 g de biscuits à la cuillère (ou de boudoirs)",
+        "image": "./img/ingredients/biscuit_cuillère.png"
+      },
+      {
+        "nom": "2 à 3 tasses de café",
+        "image": "./img/ingredients/café.png"
+      },
+      {
+        "nom": "5cl d'Amaretto",
+        "image": "./img/ingredients/amaretto.png"
+      },
+      {
+        "nom": "30 g de cacao en poudre non sucré",
+        "image": "./img/ingredients/cacao.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Fouet éléctrique",
+        "image": "./img/ingredients/fouet_elec.png"
+      },
+      {
+        "nom": "Maryse",
+        "image": "./img/ingredients/maryse.png"
+      }
+    ],
+    "etapes": [
+      [
+        "Fouettez les jaunes avec la cassonade, jusqu'à ce que le mélange blanchisse.",
+        "Ajoutez le mascarpone et mélangez bien. N'hésitez pas à sortir le mascarpone à l'avance du frigo pour qu'il ne soit pas trop dur."
+      ],
+      [
+        "Dans un autre récipient, fouettez la crème liquide avec un fouet électrique, sur vitesse lente, jusqu'à ce qu'elle soit bien ferme.",
+        "Incorporez la crème fouettée délicatement à la préparation, avec une maryse.",
+        "Replacer sur feu doux et laisser épaissir pendant quelques minutes.",
+        "Saler, poivrer et ajouter une bonne pincée de noix de muscade."
+      ],
+      [
+        "Versez le café et l'Amaretto dans une assiette creuse. Le café chaud va permettre de faire s'évaporer une partie de l'alcool.",
+        "Imbibez légèrement la moitié des biscuits cuillères dans ce mélange et disposez-les dans le fond du plat.",
+        "Recouvrez avec 1/3 de crème et renouvelez l'opération.",
+        "Placez le reste de crème dans une poche à douille munie d'une douille lisse taille 12, et pochez sur le dessus du tiramisu."
+      ],
+      [
+        "Placez 2 heures minimum au réfrigérateur. Vous pouvez laisser toute une nuit.",
+        "Saupoudrez de cacao en poudre non sucré juste avant de servir."
+      ]
+    ]
+  },
+  {
+    "titre": "Couscous royal",
+    "date": "23 juillet 2024",
+    "description": "Tellement de saveurs, un délice !",
+    "image": "./img/couscous.jpg",
+    "modal_image": "./img/modal/couscous.jpg",
+    "temps_preparation": "45min",
+    "temps_cuisson": "1h30",
+    "calories": "150",
+    "quantite": "100g",
+    "categorie": "plat",
+    "ingredients": [
+      {
+        "nom": "8 morceaux de sauté d'agneau",
+        "image": "./img/ingredients/sauté_agneau.png"
+      },
+      {
+        "nom": "8 merguez",
+        "image": "./img/ingredients/merguez.png"
+      },
+      {
+        "nom": "8 cuisses de poulet",
+        "image": "./img/ingredients/poulet_cuissse.png"
+      },
+      {
+        "nom": "6 courgettes",
+        "image": "./img/ingredients/courgette.png"
+      },
+      {
+        "nom": "2 aubergines",
+        "image": "./img/ingredients/aubergine.png"
+      },
+      {
+        "nom": "12 carottes",
+        "image": "./img/ingredients/carotte.png"
+      },
+      {
+        "nom": "8 navets",
+        "image": "./img/ingredients/navet.png"
+      },
+      {
+        "nom": "1 botte de céleri branche",
+        "image": "./img/ingredients/céleri.png"
+      },
+      {
+        "nom": "5 oignons",
+        "image": "./img/ingredients/oignon.png"
+      },
+      {
+        "nom": "Huile d'olive",
+        "image": "./img/ingredients/huile_olive.png"
+      },
+      {
+        "nom": "1kg de semoule grain moyen",
+        "image": "./img/ingredients/semoule.png"
+      },
+      {
+        "nom": "Ras el-hanout",
+        "image": "./img/ingredients/épices.png"
+      },
+      {
+        "nom": "Cumin",
+        "image": "./img/ingredients/cumin.png"
+      },
+      {
+        "nom": "1 boîte 1/4 de tomates pelées",
+        "image": "./img/ingredients/tomate.png"
+      },
+      {
+        "nom": "1 boîte 1/4 de pois chiches",
+        "image": "./img/ingredients/pois_chiches.png"
+      },
+      {
+        "nom": "Raisins secs",
+        "image": "./img/ingredients/raisins_secs.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Cocotte",
+        "image": "./img/ingredients/cocotte.png"
+      },
+      {
+        "nom": "Cuillère en bois",
+        "image": "./img/ingredients/cuillere_bois.png"
+      }
+    ],
+    "etapes": [
+      [
+        "Dans une cocotte, faire revenir les morceaux de sauté d'agneau et les cuisses de poulet dans un fond d'huile.",
+        "Ajouter un peu de ras el hanout et de cumin.",
+        "Faire dorer pendant 5 min toutes les faces puis retirer la viande de la cocotte. Réserver."
+      ],
+      [
+        "Éplucher les carottes, les oignons et les navets.",
+        "Couper les carottes et les courgettes en tronçons, puis couper les navets en 4 et les oignons en 2.",
+        "Dans la cocotte, faire revenir les légumes pendant quelques minutes à l'huile d'olive puis ajouter la boîte de tomates pelées.",
+        "Incorporer les morceaux de sauté d'agneau et les cuisses de poulet.",
+        "Couvrir le tout d'eau.",
+        "Faire mijoter pendant 1h30 environ.",
+        "Ajouter les merguez au bout de 30 min de cuisson."
+      ],
+      [
+        "Préparer le couscous (selon les indications du paquet).",
+        "Réchauffer légèrement les pois chiches et les raisins secs.",
+        "Servir."
+      ]
+    ]
+  },
+  {
+    "titre": "Tarte au citron méringuée",
+    "date": "23 juillet 2024",
+    "description": "J'adore le citron !",
+    "image": "./img/tarte_citron.jpg",
+    "modal_image": "./img/modal/tarte-citron-meringuee.jpg",
+    "temps_preparation": "60min",
+    "temps_cuisson": "20min",
+    "calories": "285",
+    "quantite": "100g",
+    "categorie": "dessert",
+    "ingredients": [
+      {
+        "nom": "260 g de farine",
+        "image": "./img/ingredients/farine.png"
+      },
+      {
+        "nom": "30 g de poudre d'amande",
+        "image": "./img/ingredients/poudre_amande.png"
+      },
+      {
+        "nom": "Sel",
+        "image": "./img/ingredients/sel.png"
+      },
+      {
+        "nom": "205 g de beurre",
+        "image": "./img/ingredients/beurre.png"
+      },
+      {
+        "nom": "50 g de sucre glace",
+        "image": "./img/ingredients/sucre.png"
+      },      
+      {
+        "nom": "4 œufs entiers et 3 blancs",
+        "image": "./img/ingredients/egg.png"
+      },
+      {
+        "nom": "140 g de sucre en poudre",
+        "image": "./img/ingredients/sucre.png"
+      },
+      {
+        "nom": "le jus de 2 gros citrons",
+        "image": "./img/ingredients/citron.png"
+      },      
+      {
+        "nom": "2 g d'agar agar",
+        "image": "./img/ingredients/agar-agar.png"
+      },      
+      {
+        "nom": "80 g de sucre glace",
+        "image": "./img/ingredients/sucre.png"
+      }      
+    ],
+    "materiel": [
+      {
+        "nom": "Maryse",
+        "image": "./img/ingredients/maryse.png"
+      },
+      {
+        "nom": "Moule à tarte de 22cm",
+        "image": "./img/ingredients/moule_tarte.png"
+      },
+      {
+        "nom": "Fouet életrique",
+        "image": "./img/ingredients/fouet_elec.png"
+      },
+      {
+        "nom": "Chalumeau de cuisine",
+        "image": "./img/ingredients/chalumeau-de-cuisine.png"
+      }
+    ],
+    "etapes": [
+      [
+        "La pâte :",
+        "Mélangez ensemble la farine, la poudre d'amande, le sel, le beurre et le sucre, du bout des doigts, de façon à ce que la pâte devienne friable, comme un crumble.",
+        "Ajoutez ensuite 1 œuf et malaxez jusqu'à obtenir une boule de pâte.",
+        "Laissez reposer environ 2 heures au frais, puis sortez la pâte du frigo un quart d'heure avant de la travailler.",
+        "Étalez votre pâte sur un plan de travail fariné, puis foncez votre moule à tarte ou votre cercle.",
+        "Piquez de quelques coups de fourchette.",
+        "Replacez au frais 15 minutes."
+      ],
+      [
+        "La crème au citron :",
+        "Placez 3 oeufs, 60g de sucre, le jus de citron, 75g de beurre et l'agar agar dans une casserole et faites bouillir.",
+        "Retirez du feu dès le premier bouillon, puis versez sur votre fond de tarte."
+      ],
+      [
+        "La meringue :",
+        "Fouettez vos blancs jusqu'à ce qu'ils deviennent mousseux.",
+        "Ajoutez alors 80g de sucre en poudre petit à petit et continuez de fouettez quelques minutes.",
+        "Terminez en ajoutant le sucre glace afin de bien serrer les blancs.",
+        "Placez cette meringue dans une poche à douille munie d'une douille lisse et formez des petits tas de meringues."
+      ],
+      [
+        "Passez votre tarte au chalumeau ou au gril si vous n'en avez pas.",
+        "Laissez refroidir avant de vous régaler !"
+      ]
+    ]
+  },
+  {
+    "titre": "Suisse au chocolat",
+    "date": "30 juillet 2024",
+    "description": "Ma viennoiserie préférée, ce mélange de crème patissière et de chocolat est trop bon !",
+    "image": "./img/brioche_suisse.jpg",
+    "modal_image": "./img/modal/suisses-au-chocolat.jpg",
+    "temps_preparation": "60min",
+    "temps_cuisson": "15min",
+    "calories": "350",
+    "quantite": "100g",
+    "categorie": "dessert",
+    "ingredients": [
+      {
+        "nom": "250g de farine",
+        "image": "./img/ingredients/farine.png"
+      },
+      {
+        "nom": "5g de sel",
+        "image": "./img/ingredients/sel.png"
+      },
+      {
+        "nom": "25g de sucre",
+        "image": "./img/ingredients/sucre.png"
+      },
+      {
+        "nom": "10 g de levure fraîche",
+        "image": "./img/ingredients/levure.png"
+      },
+      {
+        "nom": "150g d'oeufs entiers (environ 3)",
+        "image": "./img/ingredients/egg.png"
+      },
+      {
+        "nom": "100g de beurre mou",
+        "image": "./img/ingredients/beurre.png"
+      },
+      {
+        "nom": "350g de crème patissière (recette&nbsp;<a href=`https://www.iletaitunefoislapatisserie.com/2013/04/la-creme-patissiere.html`>ici</a>)",
+        "image": "./img/ingredients/creme-patissiere.png"
+      },
+      {
+        "nom": "100g de pépites de chocolat",
+        "image": "./img/ingredients/sucre.png"
+      },
+      {
+        "nom": "Jaune d'oeuf ou lait pour la dorure",
+        "image": "./img/ingredients/pinceau.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Maryse",
+        "image": "./img/ingredients/maryse.png"
+      },
+      {
+        "nom": "Robot pâtissier",
+        "image": "./img/ingredients/robot-patissier.png"
+      },
+      {
+        "nom": "Balance de cuisine",
+        "image": "./img/ingredients/balance.png"
+      },
+      {
+        "nom": "Pinceau alimentaire",
+        "image": "./img/ingredients/pinceau.png"
+      }
+    ],
+    "etapes": [
+      [        
+        "Placez la farine, le sel, le sucre et la levure dans la cuve de votre robot sans que le sel et le sucre ne touche la levure",
+        "Pétrissez environ 2 minutes.",
+        "Ajoutez les œufs battus en omelette et laissez pétrir une dizaine de minutes en passant de la vitesse 2 à 4.",
+        "Ajoutez ensuite le beurre en morceaux et laissez pétrir encore 10 minutes, vitesse 4.",
+        "Filmez et laissez monter la pâte à température ambiante pendant une heure.",
+        "En attendant, préparez votre &nbsp;<a href=`https://www.iletaitunefoislapatisserie.com/2013/04/la-creme-patissiere.html`>crème pâtissière</a>)"
+      ],
+      [
+        "Déposez la pâte sur votre plan de travail et dégazez-la en appuyant dessus afin de faire sortir le gaz. Reformez une boule et placez-la au frais pendant 1 heure.",
+        "Sur le plan de travail fariné, étalez votre pâte en forme de rectangle sur une épaisseur de 5 mm. Recouvrez la moitié de la pâte de crème pâtissière, puis de pépites de chocolat.",
+        "Repliez la pâte et détaillez 8 petits pains. Laissez monter à température ambiante pendant 1 h 30."
+      ],
+      [
+        "La meringue :",
+        "Fouettez vos blancs jusqu'à ce qu'ils deviennent mousseux.",
+        "Ajoutez alors le sucre en poudre petit à petit et continuez de fouettez quelques minutes.",
+        "Terminez en ajoutant le sucre glace afin de bien serrer les blancs.",
+        "Placez cette meringue dans une poche à douille munie d'une douille lisse et formez des petits tas de meringues."
+      ],
+      [
+        "Préchauffez votre four à 180°C. Avec un pinceau alimentaire, badigeonnez les pains de jaune d’œuf ou de lait (au choix), puis renouvelez l'opération au bout de 10 minutes pour obtenir une jolie couleur.",
+        "Enfournez 15 minutes en surveillant la coloration."
+      ]
+    ]
+  },
+  {
+    "titre": "Tarte au chèvre de Mr Seguin",
+    "date": "30 janvier 2025",
+    "description": "Une tarte sucrée/salée avec des noix !",
+    "image": "./img/tarte_mr-seguin.jpg",
+    "modal_image": "./img/modal/tarte_mr-seguin.jpg",
+    "temps_preparation": "20min",
+    "temps_cuisson": "10min",
+    "calories": "241",
+    "quantite": "100g",
+    "categorie": "entree",
+    "ingredients": [
+      {
+        "nom": "3 oignons",
+        "image": "./img/ingredients/oignon.png"
+      },
+      {
+        "nom": "2 gousses d'ail",
+        "image": "./img/ingredients/ail.png"
+      },
+      {
+        "nom": "125 de fromage de chèvre frais",
+        "image": "./img/ingredients/fromage_chèvre.png"
+      },
+      {
+        "nom": "130g de crème épaisse",
+        "image": "./img/ingredients/creme_fraiche.png"
+      },
+      {
+        "nom": "1 pâte à tarte feuilletée",
+        "image": "./img/ingredients/pate_tarte_f.png"
+      },
+      {
+        "nom": "40g de fromage rapé",
+        "image": "./img/ingredients/fromage.png"
+      },
+      {
+        "nom": "1/2 sachet de noix",
+        "image": "./img/ingredients/noix.png"
+      },
+      {
+        "nom": "Origan séché",
+        "image": "./img/ingredients/origan.png"
+      },
+      {
+        "nom": "Ciboulette",
+        "image": "./img/ingredients/ciboulette.png"
+      },
+      {
+        "nom": "Salade",
+        "image": "./img/ingredients/salade.png"
+      },
+      {
+        "nom": "2 cs d'huile d'olive",
+        "image": "./img/ingredients/huile_olive.png"
+      },
+      {
+        "nom": "2 cs vinaigre d'alcool",
+        "image": "./img/ingredients/vinaigre.png"
+      },
+      {
+        "nom": "2 cc de moutarde",
+        "image": "./img/ingredients/moutarde.png"
+      },
+      {
+        "nom": "2 cc de miel",
+        "image": "./img/ingredients/miel.png"
+      },
+      {
+        "nom": "Sel/poivre",
+        "image": "./img/ingredients/poivre_sel.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Moule à tarte",
+        "image": "./img/ingredients/moule_tarte.png"
+      },
+      {
+        "nom": "Saladier",
+        "image": "./img/ingredients/saladier.png"
+      }      
+    ],
+    "etapes": [
+      [
+        "Préchauffez le four à 200°C (180°C chaleur tournante)",
+        "Coupez le chèvre frais en morceaux. Coupez les oignons en fines demi-lunes et ciselez l'ail.",
+        "Ajoutez ensuite l’œuf et malaxez jusqu'à obtenir une boule de pâte.",
+        "Faites chauffer un filet d'huile d'olive dans une sauteuse à feu moyen et faites-y dorer l'oignon et l'ail 13-15 min en remuant de temps en temps. Salez et poivrez.",
+        "Déglacez avec du vinaigre balsamique et de l'eau. Faites cuire 1 min de plus. Le mélange doit rester humide."
+      ],
+      [
+        "Pendant ce temps, étalez la pâte sur une plaque recouverte de papier sulfurisé. Piquez le fond avec une fourchette.",
+        "Enfournez-la à blanc 10-15 min, ou jusqu'à ce qu'elle soit dorée et bien cuite, puis réservez-la hors du four."
+      ],
+      [
+        "En attendant, mélangez la crème avec ½ cc de moutarde par personne dans un petit bol.",
+        "Étalez le mélange au centre de la pâte en laissant un rebord d'environ 1 cm.",
+        "Répartissez la compotée d’oignons par-dessus et garnissez de chèvre frais. Saupoudrez de fromage râpé, de noix et d'origan séché. ",
+        "Enfournez la tarte 5 min, ou jusqu’à ce que le fromage soit fondu et légèrement gratiné"
+      ],
+      [
+        "Dans un saladier, faites une vinaigrette en mélangeant un filet d’huile d’olive avec du vinaigre balsamique. Salez et poivrez.",
+        "Quand la tarte est cuite, servez-la accompagnée de la salade."
+      ]
+    ]
+  },
+  {
+    "titre": "Boeuf bourguignon au Cookeo",
+    "date": "09 février 2025",
+    "description": "Un plat d'hiver réconfortant.",
+    "image": "./img/boeuf-bourguignon.jpg",
+    "modal_image": "./img/modal/boeuf-bourguignon.jpg",
+    "temps_preparation": "20min",
+    "temps_cuisson": "40min",
+    "calories": "156",
+    "quantite": "100g",
+    "categorie": "plat",
+    "ingredients": [
+      {
+        "nom": "2 oignons",
+        "image": "./img/ingredients/oignon.png"
+      },
+      {
+        "nom": "1 gousse d'ail",
+        "image": "./img/ingredients/ail.png"
+      },
+      {
+        "nom": "50g de beurre",
+        "image": "./img/ingredients/beurre.png"
+      },
+      {
+        "nom": "20cl de vin rouge",
+        "image": "./img/ingredients/vin_rouge.png"
+      },
+      {
+        "nom": "1 cs de farine",
+        "image": "./img/ingredients/farine.png"
+      },
+      {
+        "nom": "100g de lardons",
+        "image": "./img/ingredients/lardons.png"
+      },
+      {
+        "nom": "800g de boeuf bourguignon",
+        "image": "./img/ingredients/bourguignon.png"
+      },
+      {
+        "nom": "250g de champignons de Paris",
+        "image": "./img/ingredients/champignons.png"
+      },
+      {
+        "nom": "1 bouquet garni",
+        "image": "./img/ingredients/bouquet-garni.png"
+      },      
+      {
+        "nom": "Sel/poivre",
+        "image": "./img/ingredients/poivre_sel.png"
+      }
+    ],
+    "materiel": [
+      {
+        "nom": "Cookeo",
+        "image": "./img/ingredients/cookeo.png"
+      }          
+    ],
+    "etapes": [
+      [
+        "Épluchez l’ail et les oignons.",
+        "Coupez-les en petits morceaux.",
+        "Égouttez les champignons."
+      ],
+      [
+        "Dans votre Cookeo, faites roussir la viande et les lardons avec le morceau de beurre sur le mode « dorer » / 3 min (préchauffage inclus), en remuant avec une cuillère en bois."
+      ],
+      [
+        "Ajoutez les oignons et les champignons.",
+        "Saupoudrez de farine et mélangez.",
+        "Faites dorer sur le mode « dorer » / 3 min (préchauffage inclus), en remuant avec une cuillère en bois."
+      ],
+      [
+        "Mouillez avec le vin rouge : il doit recouvrir la viande.",
+        "Salez et poivrez.",
+        "Ajoutez l’ail et le bouquet garni."
+      ],
+      [
+        "Fermez le Cookeo et lancez la cuisson sur le mode « cuisson sous pression » pendant 40 min."
+      ]
+    ]
+  }
+]

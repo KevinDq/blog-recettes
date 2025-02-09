@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+:root
+{
+    --primary : #ebcca6;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;    
+    width: 100%; 
+    margin: 0 auto; 
+}
+/* header  */
+header
+{    
+    position: relative;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* nav */
+    .nav
+    {
+        position: absolute;
+        display: flex;        
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        top: 0;        
+        list-style-type: none; 
+        /* titre nav  */
+        .nav-title
+        {           
+            position: relative;                
+            transition: 0.5s ease;      
+            font-size: 16px;
+            text-decoration: none;
+            border-top: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+            padding: 20px 0;
+            margin: 0 30px;
+            text-align: center;
+            text-decoration: none;
+            color: rgb(119, 119, 119);
+            cursor: pointer;
+            h3
+            {
+                font-size: 1em;
+                font-weight: 400;
+            }
+            a
+            {
+                text-decoration: none;
+                color: black;  
+            }
+            &:hover
+            {
+                /* surlignage haut et bas au survol du curseur */
+                border-top: 2px solid var(--primary);
+                border-bottom: 2px solid var(--primary);
+                padding: 4px 0;
+                color: black; 
+                .links
+                {
+                    height: 320px;                    
+                    border-bottom: 3px solid var(--primary);                                         
+                }
+                .contact
+                {
+                    height: 100px;
+                    border-bottom: 3px solid var(--primary);  
+                }
+            }
+            /* bouton Liens de la nav */
+            .links
+            {
+                position: fixed;
+                z-index: 1000;
+                overflow: hidden;
+                list-style-type: none;
+                background-color: rgba(255, 255, 255, 0.95); 
+                width: 100vw;                     
+                left: 0;                
+                top: 47px;
+                text-align: center;   
+                height: 0; 
+                transition: 0.5s;            
+                /* liste des liens        */
+                li
+                {
+                    padding: 7px 0;
+                    transition: 0.3s;
+                    /* zoom au survol du curseur */
+                    &:hover
+                    {                        
+                        transform: scale(1.1); 
+                        a
+                        {   
+                            color: var(--primary);
+                            
+                        }
+                    }
+                    a
+                    {
+                        color: rgb(119, 119, 119);
+                        text-decoration: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img
+                        {
+                            max-width: 150px;
+                            max-height: 25px;
+                            margin-right: 5px;
+                        }             
+                    }
+                }
+            } 
+            /* menu contact */
+            .contact
+            {
+                position: fixed;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                z-index: 2;
+                background-color: rgba(255, 255, 255, 0.95);
+                left: 50%;
+                top: 50px; 
+                transform: translateX(-50%);                
+                height: 0;
+                overflow: hidden;                
+                transition: 0.5s;
+                a
+                {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px ;
+                    transition: 0.3s;
+                    color: rgb(119, 119, 119);
+                    &:hover
+                    {
+                        transform: scale(1.1);
+                        color: var(--primary);
+                    }
+                    img
+                    {
+                        width: 15px;
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }          
+    }      
+    /* section du titre de la page          */
+    .title
+    {
+        position: absolute;        
+        background: url(./img/bg-title.jpg);
+        background-size: cover;
+        width: 100%;
+        top: 50px;
+        height: 200px;
+        font-size: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* z-index: 1;         */
+        animation: titleAnim 2.5s forwards;
+        /* titre de la page */
+        h1
+        {
+            font-family: "Playwrite BE VLG", cursive;
+            font-optical-sizing: auto;
+            color: rgb(255, 255, 255);              
+            text-shadow: 2px 2px 5px black; 
+        }
+    }
+}
+/* animation du lancement de la page */
+@keyframes titleAnim 
+{
+    0%
+    {
+        height: 100vh;
+        font-size: 6.5em;
+        top: 0;
+    }
+    50%
+    {
+        height: 100vh;
+        font-size: 4em;
+        top: 0;
+    }
+    100%
+    {
+        height: 200px;
+        font-size: 2em;
+        top: 50px;
+    }
+} 
+
+/* main  */
+main
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 2s;        
+    /* côté gauche  */
+    .left-side
+    {
+        flex-basis: 85%;  
+        display: flex;
+        flex-wrap: wrap;
+        /* box recette              */
+        .recipe
+        {
+            display: flex;
+            flex-direction: column;                        
+            flex-basis: 25%;
+            padding: 10px;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            opacity: 1;
+            /* transform: scale(1); */
+            &.hidden {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            /* date              */
+            h4
+            {
+                font-weight: 400;
+                font-style: italic;
+                font-size: 0.8em;
+                margin-left: 5px;
+            }
+            /* box de l'image   */
+            .imgBx
+            {
+                position: relative;
+                height: 250px;
+                overflow: hidden;  
+                border: 3px solid rgba(0, 0, 0, 0); 
+                cursor: pointer;
+                /* image recette              */
+                img
+                {
+                    width: 100%; 
+                    height: 100%;
+                    object-fit: cover;
+                    transition: 0.5s;                 
+                }
+                /* nom recette */
+                h3
+                {
+                    position: absolute; 
+                    top: 50%;
+                    transform: translateY(-50%); 
+                    color: var(--primary);                    
+                    text-align: center; 
+                    text-shadow: 2px 2px 5px black;
+                    font-size: 1.5em;
+                    font-weight: 500;
+                    width: 100%;  
+                    transition: 0.5s;
+                    background: transparent;
+                    backdrop-filter: blur(10px);               
+                }
+                /* description recette */
+                p
+                {
+                    position: absolute;
+                    bottom:  -100px;
+                    transition: 0.5s;
+                    background: transparent;
+                    backdrop-filter: blur(10px);
+                    color: white;
+                    padding: 10px;
+                    font-weight: 300;
+                    text-shadow: 2px 2px 5px black;
+                    text-align: center;
+                    width: 100%;
+                }
+                /* effets au survol de la recette */
+                &:hover
+                {       
+                    /* ajout d'une bordure */
+                    border: 3px solid var(--primary); 
+                    img
+                    {
+                        /* zoom de l'image */
+                        transform: scale(1.1);
+                    }  
+                    h3
+                    {
+                        /* remontée du nom de la recette */
+                        top: 0;
+                        transform: translateY(-10%); 
+                    }                              
+                    p
+                    {
+                        /* apparition de la description */
+                        transform: translateY(-100px);                        
+                    }
+                }
+            }      
+        } 
+        /* modal */
+        .modal 
+        {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+            transition: opacity 0.3s ease;
+            opacity: 0;
+            /* Box recette         */
+            .recipeBx
+            {
+                position: relative;
+                background-color: #fefefe;
+                margin: auto;
+                padding: 20px;                
+                width: 60%;
+                min-height: 100%;
+                /* bouton fermer */
+                .closeModal
+                {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;                    
+                    color: var(--primary);                    
+                    font-size: 25px;
+                    font-weight: bold; 
+                    z-index: 1;
+                    border: 2px solid var(--primary);
+                    border-radius: 50%;
+                    padding: 0 11px;
+                    background-color: white;
+                    transition: 0.3s;
+                    /* changement couleur au survol */
+                    &:hover,
+                    &:focus 
+                    {
+                        background-color: var(--primary);
+                        color: white;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+                /*box image recette */
+                .recipe_img
+                {          
+                    position: relative;          
+                    height: 400px;                    
+                    overflow: hidden;
+                    /* image */
+                    img
+                    {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    } 
+                    /* box text */
+                    .recipe_txt
+                    {      
+                        position: absolute;
+                        bottom: 0;                  
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;  
+                        background-color: rgba(190, 190, 190, 0.8); 
+                        color: white;
+                        padding: 5px;
+                        backdrop-filter: blur(10px);
+                        text-shadow: 1px 1px 5px black;                        
+                        /* texte sur les cotés */
+                        .txt_side
+                        {
+                            display: flex;
+                            flex-direction: column;
+                            font-size: 0.9em;
+                            i
+                            {
+                                color: var(--primary);
+                                margin-right: 3px;                                
+                                font-size: 1em;
+                            }
+                            .gramme
+                            {
+                                text-decoration: overline;
+                                text-align: center;
+                            }
+                        } 
+                        /* titre recette                 */
+                        h5
+                        {
+                            font-size: 1.75em;
+                            font-weight: 500;
+                            letter-spacing: 2px;
+                            color: var(--primary);
+                        }
+                    }                   
+                }
+                /* description recette                 */
+                .recipe_desc
+                {
+                    display: flex;
+                    height: 60%; 
+                    /* ingrédients */
+                    .recipe_list
+                    {
+                        flex-basis: 50%;
+                        padding-right: 10px;
+                        .ingredients
+                        {
+                            li
+                            {
+                                min-height: 40px;
+                                max-height: 50px;
+                                img
+                                {
+                                    max-height: 40px;
+                                }
+                                a
+                                {
+                                    text-decoration: none;
+                                    color: #7a644a;
+                                }
+                            }
+                        }
+                        .materiel
+                        {
+                            margin-top: 25px;
+                        }                        
+                        h3
+                        {
+                            background-color: var(--primary);
+                            padding: 0 5px;
+                            font-weight: 400;
+                            letter-spacing: 1px;
+                            margin: 10px 0;
+                        }
+                        span
+                        {
+                            font-style: italic;
+                            font-weight: 400;
+                            font-size: 0.85em;                           
+                        }
+                        li
+                        {
+                            display: flex;
+                            align-items: center;
+                            padding: 7px;
+                            list-style-type: none;
+                            font-size: 0.9em;
+                            img
+                            {
+                                width: 30px;
+                                max-height: 40px;
+                                margin-right: 8px;
+                            }
+                        }
+                    }
+                    /* barre séparatrice */
+                    .middle_bar
+                    {
+                        min-height: 530px;
+                        max-height: 1200px;
+                        margin-top: 10px;                        
+                        background-color: #000;
+                        border-left: 1px solid rgb(143, 143, 143);
+                        width: 1px;
+                    }
+                    /* étapes */
+                    .steps
+                    {
+                        flex-basis: 50%;
+                        padding-left: 10px;
+                        /* titre */
+                        h3
+                        {
+                            background-color: var(--primary);
+                            padding: 0 5px;
+                            font-weight: 400;
+                            letter-spacing: 1px;
+                            margin: 10px 0;                            
+                        }
+                        h5
+                            {
+                                font-weight: 400;                                
+                                font-size: 1em;
+                            }
+                        /* étapes */
+                        .step                            
+                            {
+                                display: grid;
+                                grid-template-columns: 45px auto;
+                                gap: 15px;
+                                padding: 7px;
+                                list-style-type: none;
+                                
+                                /* numéro étape */
+                                span
+                                {
+                                    flex-basis: 10%;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: #ebcca6 solid 1px;
+                                    border-radius: 50%;
+                                    font-weight: 400;
+                                    height: 25px;
+                                    font-size: 1.1em;
+                                    padding: 15px 0;
+                                    margin: 0 5px;                                    
+                                }
+                                /* instructions  */
+                                li
+                                {
+                                    flex-basis: 90%;
+                                    padding: 5px 0;
+                                    font-size: 0.95em;
+                                    a
+                                    {
+                                        text-decoration: none;
+                                        color: #7a644a;
+                                    }   
+                                }
+                            }
+                    }
+                }
+            }            
+        }
+        .modal.show {
+            display: block;
+            opacity: 1;
+        }
+    }
+    /* main rightside  */
+    .right-side
+    {
+        flex-basis: 15%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 25px; 
+        .myself
+        {
+            background-color: var(--primary);            
+            padding: 15px 20px;
+            p:nth-child(1)
+            {
+                text-align: center;
+            }
+            p
+            {
+                font-size: 0.9em;
+                text-align: justify;
+                font-style: italic;                
+            }
+        }  
+        .search-container 
+        {
+            margin-bottom: 10px;
+            #search-input {
+                width: 100%;
+                padding: 10px;
+                font-size: 16px;
+                border: 1px solid #ddd;    
+            }
+        }        
+        .filter
+        {
+            h3
+                {                    
+                    font-weight: 400;
+                }
+            .filter-container 
+            {
+                margin: 20px 0;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                
+                .filter-btn 
+                {  
+                    width: 80px;  
+                    text-align: center;            
+                    padding: 10px; 
+                    border: none;
+                    background-color: white;                
+                    color: rgb(87, 87, 87);
+                    cursor: pointer;
+                    border: 2px solid var(--primary);
+                    transition: 0.3s;
+                    font-size: 0.8em;
+                    &:hover,
+                    &.active 
+                    {
+                        border: 2px solid var(--primary);
+                        background-color: var(--primary);
+                        color: black;
+                    }                       
+                }
+            }
+        }
+        
+    }      
+}        
+@keyframes fadeIn 
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }    
+}   
+/* media queries */
+@media screen and (max-width:1200px) 
+{
+    main 
+    {
+        .left-side 
+        {
+            flex-basis: 75%;
+            .recipe
+            {
+                flex-basis: 33%;
+                .modal
+                {
+                    .recipeBx
+                    {
+                        width: 75%;
+                    }
+                }
+            }
+        }
+        .right-side
+        {
+            flex-basis: 25%;
+        }
+    
+    }
+}
+
+@media screen and (max-width:900px) 
+{
+    main 
+    {
+        .left-side 
+        {
+            flex-basis: 75%;
+            .recipe
+            {
+                flex-basis: 50%;
+                .modal
+                {
+                    .recipeBx
+                    {
+                        width: 85%;
+                    }
+                }
+            }
+        }
+        .right-side
+        {
+            flex-basis: 25%;
+            .myself
+            {
+                font-size: 0.85em;
+            }
+        }
+    
+    }
+}
+@media screen and (max-width:600px) 
+{
+    header
+    {
+        .title
+        {
+            h1
+            {
+                font-size: 1.2em;
+            }
+        }
+    }
+    main 
+    {
+        flex-direction: column-reverse;
+        padding: 10px;
+        .left-side 
+        {            
+            .recipe
+            {
+                flex-basis: 50%;
+                .modal
+                {
+                    .recipeBx
+                    {
+                        width: 100%;
+                        padding: 10px;
+                        .recipe_img
+                        {
+                            height: 300px;
+                        }
+                        .recipe_desc
+                        {
+                            .steps
+                            {                                
+                                li
+                                {
+                                    font-size: .9em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right-side
+        {            
+            .myself
+            {
+                font-size: 0.9em;
+            }
+            .filter
+            {
+                .filter-container
+                {
+                    flex-direction: row;                    
+                }
+            }            
+        }
+    
+    }
+}
+@media screen and (max-width:450px) 
+{
+    header
+    {
+        .title
+        {
+            h1
+            {
+                font-size: 1em;
+            }
+        }
+    }
+    main 
+    {
+        flex-direction: column-reverse;
+        padding: 10px;
+        .left-side 
+        {            
+            .recipe
+            {
+                flex-basis: 100%;
+                .modal
+                {
+                    .recipeBx
+                    {
+                        width: 100%;
+                        padding: 5px;
+                        .recipe_img
+                        {
+                            height: 200px;
+                            .recipe_txt
+                            {
+                                .txt_side
+                                {
+                                    font-size: 0.8em;
+                                }
+                                h5
+                                {
+                                    font-size: 1em;   
+                                }
+                            }
+                        }                        
+                        .recipe_desc
+                        {
+                            .recipe_list
+                            {
+                                font-size: 0.9em;
+                            }
+                            .steps
+                            {       
+                                .step
+                                {
+                                    grid-template-columns: 1fr;
+                                    span
+                                    {
+                                        width: 35px;
+                                        margin: 0 auto;
+                                    }
+                                }                         
+                                li
+                                {
+                                    font-size: .9em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .right-side
+        {            
+            .myself
+            {
+                font-size: 0.8em;
+            }            
+            .filter
+            {
+                margin-top: 0;
+                h3
+                {
+                    font-size: 0.9em;
+                }
+                .filter-container
+                {
+                    flex-direction: row;                    
+                }
+            }            
+        }
+    
+    }
+}
